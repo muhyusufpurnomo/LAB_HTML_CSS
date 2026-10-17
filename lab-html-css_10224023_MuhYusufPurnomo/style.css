@@ -1,0 +1,140 @@
+
+/* Type selector */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f6f9;
+}
+
+/* Grouping selector */
+h2, h3 {
+    color: #003366;
+}
+
+/* Type selector */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+/* Descendant selector */
+header p {
+    color: white;
+}
+
+/* Type selector */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Descendant selector */
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* Pseudo-class selector */
+nav a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* ID selector */
+#about {
+    border-top: 4px solid #003366;
+}
+
+/* Type selector */
+section {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* Class selector */
+.card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Descendant selector */
+section p {
+    line-height: 1.6;
+}
+
+/* Type selector */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Grouping selector */
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Type selector */
+th {
+    background-color: #dbe7f3;
+}
+
+/* Type selector */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Descendant selector */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Grouping selector */
+form input, form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font: inherit;
+}
+
+/* Type selector */
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Pseudo-class selector */
+button:hover {
+    background-color: #00509e;
+}
+
+/* Type selector */
+footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    padding: 16px;
+}
